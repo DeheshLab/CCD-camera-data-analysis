@@ -1,0 +1,3 @@
+CCD-camera-data-analysis
+========================
+This is a collection of scripts that were written by Geoff Benn in the Dehesh lab at UC Davis. They are intended to speed up the analysis of data produced by Andor Solis, which is a program that we use to do CCD camera quantification of Luciferase expression. The analysis pipeline in our hands generally consists of running two scripts per Andor file - one to produce means and standard errors for graphing in Excel/SigmaPlot, and one to reformat the data so that it can be analyzed in R. Scripts that have "systemic" in the name are used in situations where we collect two sets of measurements per plant, whereas scrips lacking "systemic" are used for situations where we collect one measurement per plant.
